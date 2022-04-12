@@ -1,0 +1,12 @@
+uname=huss
+passwd=12345
+
+read -p "username:" uname
+read -p "password:" passwd
+
+if [[ $uname -eq huss && $passwd -eq 12345 ]]
+then
+	echo "giriş yapıldı ok"
+else
+	echo "kullanıcını adını ve şifreyi doğru gir bb!"
+fi 
